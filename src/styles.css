@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0
+}
+
+body{
+    background-image: url('https://i.gifer.com/CZk.gif');
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.background{
+    color: rgb(119, 46, 253);
+    font-size: 120%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 89px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
+
+
+.card{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px 1px;
+}
+
+.icon{
+    display: inline-block;
+    width: 80px;
+    text-align: center
+}
+
+.weather-icon{
+    font-size: 12.2rem;
+    color: #00bcd4;
+}
+
+.temperature{
+    margin-top: -35px;
+    font-size: 1.4rem;
+}
+
+.change{
+    border: 0;
+    border-radius: 4px;
+    background: rgb(119, 46, 253);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    outline: 0;
+}
+.error-message{
+    font-weight: 400;
+    color: rgb(142, 173, 230);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+
+
+.text-center{
+    text-align: center;
+    color: rgb(119, 46, 253);
+    font-weight: bold;
+}
+.text-black{
+    color: black;
+    font-weight: bold;
+}
+.d-none{
+    display: none;
+}
+
+
+
+
+/* Response */
+@media(min-width: 576px){
+    
+    .background{
+        top: 0;
+    }
+    .row{
+        display: flex;
+    }
+    .col-sm-6{
+        width: 45%;
+        padding: 0px;
+    }
+    
+}
